@@ -35,4 +35,14 @@ int main(){
   cout << "f(1, 2) = " << f(1, 2) << endl;
   Show(1, 2);
   hello();
+
+  int a = 0;
+  do {
+    ++a;
+    if (a > 5) {
+      continue;
+    }
+    cout << "a = " << a << endl;
+  }
+  while (a < 10);
 }
